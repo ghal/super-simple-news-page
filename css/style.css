@@ -10,7 +10,7 @@ and open the template in the editor.
 html{
     width: 100%;
     height: 100%;
-    background-color: #F61C36;
+    background-color: #bdc3c7;
     -webkit-font-smoothing: subpixel-antialiased;
     font-family: 'Roboto', sans-serif;
 }
@@ -25,7 +25,7 @@ body{
     position: fixed;
     width:15%;
     height:100%;
-    
+    background-color: #F61C36;
     //background-color: rgba(0,0,0,0.5);
     float: left; 
     
@@ -99,7 +99,7 @@ body{
     background: #FBF6F7;
     width: 300px;
     //height: 300px;
-
+    margin:0.2%;
     margin-top: 2.5%;
     color: black;
     list-style: none;
@@ -109,6 +109,12 @@ body{
     -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);
 }
+.flex-item a{
+    color: black;
+    text-decoration: none;
+    
+}
+
 /*.item{
     list-style: none;
     padding:0;
@@ -119,6 +125,7 @@ body{
 
 
 }*/
+
 .flex-item img{
     width: 100%;
 
@@ -139,4 +146,35 @@ body{
     .flex-item {
         width: 95%;
     }
+}
+.article{
+    
+    margin-left: 25%;
+    width:50%;
+    background-color: #FBF6F7;
+    
+    background-color: white
+}
+/*ARTICLE PAGE*/
+.article #article-img{
+width: 100%;
+background-image: url("http://www.insomnia.gr/uploads/c630c75b5d16f0904a8259b404b69f85.jpg");
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+}
+.article h1{
+    font-size: 2.5em;
+    //text-align: center;
+    padding:5px;
+    font-weight: 400;
+    //margin:0;
+    margin: 2.5%;
+}
+.article p{
+    font-size: 1.5em;
+    padding:5px;
+    margin: 2.5%;
+
 }
